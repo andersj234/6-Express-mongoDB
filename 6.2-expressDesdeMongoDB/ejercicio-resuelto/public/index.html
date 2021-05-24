@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="mostrar el libro que quieres" id="libroSolicitado">
+        <input type="text" placeholder="añadir libro" id="libro">
+        <input type="text" placeholder="libro leido" id="libroLeido">
+        <button onclick="anyadirLibro()"> añadir libro</button>
+        <button onclick="mostrarTitulo()">enseñar el libro</button>
+        <button onclick="mostrarLibros()">enseñar todos los libros</button>
+        <button onclick="leido()">marcar libro como sin leer</button> <!--se que esta al reves y deberia ser leido pero como me marca que estan leidos siempre pues lo hice al reves-->
+    </div>
+    <div id="feedback2"></div>
+    <div id="contenido">
+
+    </div>
+    <div id="feedback"></div>
+    <div id="feedback3"></div>
+    <script src="index.js"></script>
+</body>
+</html>
